@@ -1,16 +1,3 @@
-:root {
-    --black: #22262A;
-    --grey1: #C1C8CE;
-    --grey2: #E5E8EA;
-    --grey3: #F1F3F4;
-    --grey4: #F6F7F8;
-    --white: #ffffff;
-    --blue1: #0D2840;
-    --blue2: #19507F;
-    --blue3: #2678BF;
-    --blue4: #2E90E5;
-    --blue5: #33A0FF;
-}
 
 @font-face {
     font-family: 'Proxima Nova';
@@ -31,10 +18,14 @@
 
 body {
     font-weight: 600;
-    background-color: var(--grey3);
+    background-color: #F1F3F4;
     
 }
 
+a {
+    color: #22262A;
+    text-decoration: none;
+  }
 
 p {
     font-size: 16px;
@@ -44,11 +35,11 @@ p {
 
 .navbar {
     height: 80px;
-    background-color: var(--white);
+    background-color: #ffffff;
 }
 
 .btn {
-    background-color: var(--white);
+    background-color: #ffffff;
     margin: 3px;
 }
 
@@ -61,11 +52,15 @@ a:hover {
     text-decoration: none;
 }
 
-.categories {
+.section {
     padding: 15px;
-    background-color: var(--white);
+    background-color: #ffffff;
     border-radius: 5px;
     margin-bottom: 24px;
+}
+
+.section .title{
+    padding: .375rem .75rem;
 }
 
 .right-section > *{
@@ -75,14 +70,6 @@ a:hover {
 
 .tab {
     padding-left: 100px;
-}
-
-.left-aligned {
-    float: left;
-}
-
-.right-aligned {
-    float: right;
 }
 
 .full-width {
@@ -100,7 +87,7 @@ a:hover {
 .banner {
     height: 300px;
     background-color: rgb(39, 122, 222);
-    color: var(--white);
+    color: #ffffff;
     display: inline-flex;
     overflow: hidden;
 }
@@ -111,12 +98,12 @@ a:hover {
 
 .btn-banner {
     padding: 5px;
-    border-bottom: 3px solid var(--white);
+    border-bottom: 3px solid #ffffff;
 }
 
 .filter {
     display: inline-flex;
-    background-color: var(--white);
+    background-color: #ffffff;
     padding: 8px;
     line-height: 45px;
     width: 100%;
@@ -164,11 +151,11 @@ a:hover {
 
 .activ {
     background-color: black;
-    color: var(--white);
+    color: #ffffff;
 }
 
 .active-link {
-    color: var(--blue4);
+    color: #2E90E5;
 }
 
 footer p {
