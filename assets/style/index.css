@@ -1,0 +1,194 @@
+:root {
+    --black: #22262A;
+    --grey1: #C1C8CE;
+    --grey2: #E5E8EA;
+    --grey3: #F1F3F4;
+    --grey4: #F6F7F8;
+    --white: #ffffff;
+    --blue1: #0D2840;
+    --blue2: #19507F;
+    --blue3: #2678BF;
+    --blue4: #2E90E5;
+    --blue5: #33A0FF;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(assets/font/proxima_nova_semibold.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Proxima Nova';
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-weight: 600;
+    background-color: var(--grey3);
+    
+}
+
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.navbar {
+    height: 80px;
+    background-color: var(--white);
+}
+
+.btn {
+    background-color: var(--white);
+    margin: 3px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+a:link,
+a:hover {
+    text-decoration: none;
+}
+
+.categories {
+    padding: 15px;
+    background-color: var(--white);
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.right-section > *{
+    margin-bottom: 24px;
+}
+
+
+.tab {
+    padding-left: 100px;
+}
+
+.left-aligned {
+    float: left;
+}
+
+.right-aligned {
+    float: right;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.banner {
+    height: 300px;
+    background-color: rgb(39, 122, 222);
+    color: var(--white);
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.banner-txt {
+    padding: 15px;
+}
+
+.btn-banner {
+    padding: 5px;
+    border-bottom: 3px solid var(--white);
+}
+
+.filter {
+    display: inline-flex;
+    background-color: var(--white);
+    padding: 8px;
+    line-height: 45px;
+    width: 100%;
+}
+
+.card {
+    text-align: center;
+    margin-bottom: 24px !important;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.checked {
+    color: orange;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.red-text {
+    color: red;
+    padding-right: 5px;
+}
+
+.cancelled-text {
+    color: grey;
+    font-weight: 400;
+    text-decoration: line-through;
+    text-decoration-style: 5px solid;
+}
+
+.list-inline {
+    padding: 10px;
+    text-align: center;
+}
+
+.list-inline-item {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.activ {
+    background-color: black;
+    color: var(--white);
+}
+
+.active-link {
+    color: var(--blue4);
+}
+
+footer p {
+    clear: both;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+footer img {
+    height: 20px;
+    float: left;
+    padding-right: 20px;
+}
+
+.copyright {
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.footer-title {
+    padding-top: 47px;
+    font-weight:400;
+}
